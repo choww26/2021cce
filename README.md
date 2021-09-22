@@ -1,5 +1,6 @@
 # 2021cce
 這是我在資傳一乙程設課的上課程式
+
 README.md 是用 MarkDown 語法
 
 # 第01週
@@ -7,7 +8,7 @@ README.md 是用 MarkDown 語法
 在數字 1,2,3,4 的左邊, 有個特別的小點 backquote `
 
 如果有 3個小點 ``` 就可以引用一大段
-```
+```C
 #include <stdio.h>
 int main() ///在main()裡面,可以省略!!
 {
@@ -21,6 +22,7 @@ int main() ///在main()裡面,可以省略!!
 ///(3)換你做做看(作業) 10分鐘 (卡住了/問題)
 ///(4)成效追蹤
 ```
+```C
 
 // 兩個斜線 slash
 ///Q3: 三個斜線 slash 可以寫中文的解釋,方便理解
@@ -35,4 +37,5 @@ int main() ///圓括號在大寫9,0
 {                  ///反斜線 backslash
     printf( "Hello World\n" );
 }/// 有個f  雙引號在大寫的 Enter旁
+```
 

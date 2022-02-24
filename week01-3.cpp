@@ -4,6 +4,6 @@ int main()
 {
     scanf("%s", line);
     for(int i=0; i<2000; i++){
-        if( line[i]== '2')printf("§ä¨ì2\n");}
+        if( line[i]== '2')printf("æ‰¾åˆ°2\n");}
     return 0;
 }

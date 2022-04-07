@@ -1,10 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+char line[2000][80];
+
+int compare(const *p1, const *p2)
+{
+	return strcmp( (char*)p1, (char*)p2);
+}
 int main()
 {
-    int n=10;
-    while(n>0)
-    {
-        printf("n¤j©ó0\n");
-        n=n-1;
-    }
+	int N;
+	scanf("%d\n", &N);
+
+	for(int i=0; i<N; i++){
+		scanf("%s", line[i]);
+		char others[80];
+		gets(others);
+	}
+	qsort(line, N, 80, compare);
+
+	for(int i=0; i<N; i++){
+		printf("%s\n", line[i]);
+	}
+	return 0;
 }
